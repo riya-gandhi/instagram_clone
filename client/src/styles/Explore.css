@@ -1,0 +1,12 @@
+.explore-posts,
+.explore-users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.explore-post,
+.explore-user {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
