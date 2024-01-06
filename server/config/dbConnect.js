@@ -2,10 +2,10 @@ const mysql = require("mysql2");
 
 const db = mysql.createPool({
     connectionLimit: 10, 
-    host: 'db4free.net',
-    user: 'riyagandhiiiiiii',
-    password: 'Tower@321',
-    database: 'instagramclonerg'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 module.exports = db;
